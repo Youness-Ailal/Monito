@@ -1,0 +1,66 @@
+@keyframes shape-rotate-1 {
+  0% {
+    opacity: 0;
+    transform: rotate(50deg) translate(50rem, 15rem);
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(20deg) translate(0, 0);
+  }
+}
+@keyframes shape-rotate-2 {
+  0% {
+    opacity: 0;
+    transform: rotate(10deg) translate(50rem, 15rem);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(3deg) translate(0, 0);
+  }
+}
+@keyframes move-img {
+  0% {
+    opacity: 0;
+    transform: translateY(50rem);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes go-up {
+  0% {
+    opacity: 0;
+    transform: rotate(60deg) translateY(10rem);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(60deg) translateY(0);
+  }
+}
+@keyframes hero {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes carti {
+  0% {
+    transform: translateY(0rem);
+  }
+
+  50% {
+    transform: translateY(-0.4rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

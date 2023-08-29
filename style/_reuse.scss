@@ -1,0 +1,63 @@
+.btn {
+  cursor: pointer;
+  border: none;
+  padding: 1.4rem 3rem;
+  font-size: 1.8rem;
+  border-radius: 20rem;
+  color: #fff;
+  background-color: #003459;
+  transition: 0.3s;
+  -webkit-tap-highlight-color: transparent;
+  &:hover {
+    // background-color: #3b5bdb;
+    background-color: #3b5bdb;
+  }
+}
+.btn-second {
+  cursor: pointer;
+  border: none;
+  padding: 1.2rem 3rem;
+  font-size: 1.6rem;
+  border-radius: 20rem;
+  color: #003459;
+  border: 2px solid #003459;
+  background-color: transparent;
+  transition: 0.3s;
+  -webkit-tap-highlight-color: transparent;
+
+  &:hover {
+    color: #3b5bdb;
+    border: 2px solid #3b5bdb;
+  }
+}
+.heading-1 {
+  font-size: 7rem;
+  color: #003459;
+
+  @media (max-width: 450px) {
+    font-size: 6rem;
+  }
+}
+.heading-2 {
+  font-size: 4.5rem;
+  color: #003459;
+  @media (max-width: 450px) {
+    font-size: 3.5rem;
+  }
+}
+.heading-3 {
+  font-size: 3rem;
+  color: #003459;
+}
+.heading-4 {
+  font-size: 2rem;
+  color: #003459;
+}
+.heading-5 {
+  font-size: 1.5rem;
+  color: #003459;
+}
+.paragraph {
+  font-size: 1.5rem;
+  color: #242b33;
+}

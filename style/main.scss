@@ -1,0 +1,108 @@
+@import "reuse.scss";
+@import "animation.scss";
+@import "header.scss";
+@import "hero.scss";
+@import "pets.scss";
+@import "second-hero.scss";
+@import "products.scss";
+@import "sellers.scss";
+@import "footer.scss";
+@import "heart.scss";
+
+@font-face {
+  font-family: SVN GlorryBold;
+  src: url(Gilroy-Bold.ttf);
+}
+@font-face {
+  font-family: SVN GlorryRegular;
+  src: url(Gilroy-Regular.ttf);
+}
+@font-face {
+  font-family: SVN GlorryMedium;
+  src: url(Gilroy-Medium.ttf);
+}
+@font-face {
+  font-family: SVN GlorrySemiBold;
+  src: url(Gilroy-SemiBold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  @media (max-width: 1250px) {
+    font-size: 60.5%;
+  }
+  @media (max-width: 1050px) {
+    font-size: 58.5%;
+  }
+  @media (max-width: 820px) {
+    font-size: 55.5%;
+  }
+  @media (max-width: 550px) {
+    font-size: 45.5%;
+  }
+}
+body {
+  font-family: "SVN GlorryRegular", sans-serif;
+  line-height: 1.4;
+  background-color: #fcfcfd;
+}
+h1,
+h2 {
+  font-family: "SVN GlorryBold", sans-serif;
+}
+h3,
+h4,
+h5 {
+  font-family: "SVN GlorrySemiBold", sans-serif;
+}
+::selection {
+  background-color: rgba(32, 201, 151, 0.5);
+  color: #003459;
+}
+.home {
+  border-radius: 0 0 4rem 4rem;
+  background: linear-gradient(
+    134deg,
+    #e6fcf5 6.17%,
+    #c3fae8 75.14%,
+    #c3fae8 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+  z-index: 999;
+
+  &::after {
+    content: "";
+    height: 65rem;
+    width: 65rem;
+    background-color: #63e6be;
+    display: block;
+    position: absolute;
+    top: -82%;
+    left: -12%;
+    z-index: 0;
+    border-radius: 10rem;
+    transform: rotate(20deg);
+  }
+  &::before {
+    content: "";
+    height: 65rem;
+    width: 65rem;
+    background-color: #96f2d7;
+    display: block;
+    position: absolute;
+    bottom: -82%;
+    left: 0%;
+    z-index: 0;
+    border-radius: 10rem;
+    transform: rotate(60deg);
+    filter: blur(0.2rem);
+  }
+}

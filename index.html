@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/dog-feet.svg" type="image/x-icon" />
+    <meta
+      name="description"
+      content="Welcome to our premium pet store Monito offering a wide range of top-quality products for your beloved furry friends. Discover a delightful selection of dogs, cats, pet food, and interactive pet toys. Find everything you need to pamper and care for your pets in one convenient place. Shop now and give your pets the love they deserve" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="style/main.css" />
+    <title>Monito</title>
+  </head>
+
+  <body>
+    <div class="home">
+      <header class="header">
+        <i class="bx bx-menu header__menu"></i>
+        <img src="images/logo.svg" alt="" class="header__logo" />
+
+        <nav class="header__navigation">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="" class="header__link">Home</a>
+            </li>
+            <li class="header__item">
+              <a href="" class="header__link"
+                >Category <i class="bx bx-chevron-down"></i
+              ></a>
+            </li>
+            <li class="header__item products-lnk">
+              <a href="" class="header__link"
+                >Products <i class="bx bx-chevron-down"></i
+              ></a>
+            </li>
+
+            <li class="header__item">
+              <a href="" class="header__link">About us</a>
+            </li>
+            <li class="header__item">
+              <a href="" class="header__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__right">
+          <form action="search" class="header__search-form">
+            <i class="bx bx-search header__search-icon"></i>
+            <input
+              type="search"
+              name=""
+              class="header__search"
+              placeholder="Search" />
+          </form>
+          <i class="bx bx-cart header__cart"></i>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div class="hero__text">
+          <h1 class="hero__title heading-1">
+            One More
+            <span class="hero__friend"
+              >Friend <img src="images/line-2.svg" alt="" class="hero__line"
+            /></span>
+          </h1>
+          <h2 class="hero__title-second heading-2">Thousands More Fun!</h2>
+          <p class="hero__paragraph paragraph">
+            Having a pet means you have more joy, a new friend, a happy person
+            who will always be with you to have fun. We have 200+ different pets
+            that can meet your needs!
+          </p>
+          <div class="hero__buttons">
+            <button class="btn hero__main-btn">
+              Explore More <i class="bx bx-down-arrow-alt"></i>
+              <i class="bx bx-down-arrow-alt"></i>
+            </button>
+            <button class="btn-second hero__second-btn">
+              Watch Intro <i class="bx bxs-right-arrow hero__watch"></i>
+            </button>
+          </div>
+        </div>
+        <div class="hero__image-container">
+          <img src="images/hero.webp" alt="" class="hero__image" />
+        </div>
+      </section>
+    </div>
+    <section class="pets">
+      <div class="pets__header">
+        <div class="pets__left">
+          <h5 class="pets__arrival heading-5">New Arrivals!</h5>
+          <h3 class="pets__title heading-3">Take A Look At Our Pets</h3>
+        </div>
+        <div class="pets__right">
+          <button class="btn-second pets__button">
+            View more <i class="bx bx-arrow-back"></i>
+          </button>
+        </div>
+      </div>
+      <div class="pets__container">
+        <!--  -->
+        <figure class="pet">
+          <div class="pet__image-container">
+            <img src="images/pet1.webp" alt="" class="pet__image" />
+            <!--  -->
+            <div class="con-like">
+              <input title="like" type="checkbox" class="like" />
+              <div class="checkmark">
+                <svg
+                  viewBox="0 0 24 24"
+                  class="outline"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+                </svg>
+                <svg
+                  viewBox="0 0 24 24"
+                  class="filled"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+                </svg>
+                <svg
+                  class="celebrate"
+                  width="100"
+                  height="100"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="10,10 20,20" class="poly"></polygon>
+                  <polygon points="10,50 20,50" class="poly"></polygon>
+                  <polygon points="20,80 30,70" class="poly"></polygon>
+                  <polygon points="90,10 80,20" class="poly"></polygon>
+                  <polygon points="90,50 80,50" class="poly"></polygon>
+                  <polygon points="80,80 70,70" class="poly"></polygon>
+                </svg>
+              </div>
+            </div>
+            <!-- <i class="bx bx-heart pet__heart"></i> -->
+          </div>
+          <div class="pet__text">
+            <div class="pet__name">MO231 - Pomeranian White</div>
+            <div class="pet__info">
+              <div class="pet__gene">
+                gene : <span>Male</span>
+                <i class="bx bx-male-sign pet__male"></i>
+              </div>
+              <span>|</span>
+              <div class="pet__age">Age : <span>2 months</span></div>
+            </div>
+            <div class="pet__pricing">
+              <div class="pet__price">
+                2,950 DH <span class="pet__old-price">4,000 DH</span>
+              </div>
+              <i class="bx bx-cart-add pet__cart"></i>
+            </div>
+          </div>
+        </figure>
+        <!--  -->
+        <figure class="pet">
+          <div class="pet__image-container">
+            <img src="images/pet2.webp" alt="" class="pet__image" />
+            <!--  -->
+            <div class="con-like">
+              <input title="like" type="checkbox" class="like" />
+              <div class="checkmark">
+                <svg
+                  viewBox="0 0 24 24"
+                  class="outline"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+                </svg>
+                <svg
+                  viewBox="0 0 24 24"
+                  class="filled"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+                </svg>
+                <svg
+                  class="celebrate"
+                  width="100"
+                  height="100"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="10,10 20,20" class="poly"></polygon>
+                  <polygon points="10,50 20,50" class="poly"></polygon>
+                  <polygon points="20,80 30,70" class="poly"></polygon>
+                  <polygon points="90,10 80,20" class="poly"></polygon>
+                  <polygon points="90,50 80,50" class="poly"></polygon>
+                  <polygon points="80,80 70,70" class="poly"></polygon>
+                </svg>
+              </div>
+            </div>
+            <!-- <i class="bx bx-heart pet__heart"></i> -->
+          </div>
+          <div class="pet__text">
+            <div class="pet__name">MO502 - Poodle Tiny Yellow</div>
+            <div class="pet__info">
+              <div class="pet__gene">
+                gene : <span>Female</span>
+                <i class="bx bx-female-sign pet__female"></i>
+              </div>
+              <span>|</span>
+              <div class="pet__age">Age : <span>2 months</span></div>
+            </div>
+            <div class="pet__pricing">
+              <div class="pet__price">
+                1,590 DH <span class="pet__old-price">2,300 DH</span>
+              </div>
+              <i class="bx bx-cart-add pet__cart"></i>
+            </div>
+          </div>
+        </figure>
+        <!--  -->
+        <figure class="pet">
+          <div class="pet__image-container">
+            <img src="images/pet3.webp" alt="" class="pet__image" />
+            <!--  -->
+            <div class="con-like">
+              <input title="like" type="checkbox" class="like" />
+              <div class="checkmark">
+                <svg
+                  viewBox="0 0 24 24"
+                  class="outline"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+                </svg>
+                <svg
+                  viewBox="0 0 24 24"
+                  class="filled"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+                </svg>
+                <svg
+                  class="celebrate"
+                  width="100"
+                  height="100"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="10,10 20,20" class="poly"></polygon>
+                  <polygon points="10,50 20,50" class="poly"></polygon>
+                  <polygon points="20,80 30,70" class="poly"></polygon>
+                  <polygon points="90,10 80,20" class="poly"></polygon>
+                  <polygon points="90,50 80,50" class="poly"></polygon>
+                  <polygon points="80,80 70,70" class="poly"></polygon>
+                </svg>
+              </div>
+            </div>
+            <!-- <i class="bx bx-heart pet__heart"></i> -->
+          </div>
+          <div class="pet__text">
+            <div class="pet__name">MO102 - Poodle Tiny Sepia</div>
+            <div class="pet__info">
+              <div class="pet__gene">
+                gene : <span>Male</span>
+                <i class="bx bx-male-sign pet__male"></i>
+              </div>
+              <span>|</span>
+              <div class="pet__age">Age : <span>2 months</span></div>
+            </div>
+            <div class="pet__pricing">
+              <div class="pet__price">
+                1,150 DH <span class="pet__old-price">2,000 DH</span>
+              </div>
+              <i class="bx bx-cart-add pet__cart"></i>
+            </div>
+          </div>
+        </figure>
+        <!--  -->
+        <figure class="pet">
+          <div class="pet__image-container">
+            <img src="images/pet4.jpg" alt="" class="pet__image" />
+            <!--  -->
+            <div class="con-like">
+              <input title="like" type="checkbox" class="like" />
+              <div class="checkmark">
+                <svg
+                  viewBox="0 0 24 24"
+                  class="outline"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+                </svg>
+                <svg
+                  viewBox="0 0 24 24"
+                  class="filled"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+                </svg>
+                <svg
+                  class="celebrate"
+                  width="100"
+                  height="100"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="10,10 20,20" class="poly"></polygon>
+                  <polygon points="10,50 20,50" class="poly"></polygon>
+                  <polygon points="20,80 30,70" class="poly"></polygon>
+                  <polygon points="90,10 80,20" class="poly"></polygon>
+                  <polygon points="90,50 80,50" class="poly"></polygon>
+                  <polygon points="80,80 70,70" class="poly"></polygon>
+                </svg>
+              </div>
+            </div>
+            <!-- <i class="bx bx-heart pet__heart"></i> -->
+          </div>
+          <div class="pet__text">
+            <div class="pet__name">MO512 - Alaskan Malamute Grey</div>
+            <div class="pet__info">
+              <div class="pet__gene">
+                gene : <span>Male</span>
+                <i class="bx bx-male-sign pet__male"></i>
+              </div>
+              <span>|</span>
+              <div class="pet__age">Age : <span>2 months</span></div>
+            </div>
+            <div class="pet__pricing">
+              <div class="pet__price">
+                3,150 DH <span class="pet__old-price">4,800 DH</span>
+              </div>
+              <i class="bx bx-cart-add pet__cart"></i>
+            </div>
+          </div>
+        </figure>
+        <!--  -->
+        <figure class="pet">
+          <div class="pet__image-container">
+            <img src="images/pet5.jpg" alt="" class="pet__image" />
+            <!--  -->
+            <div class="con-like">
+              <input title="like" type="checkbox" class="like" />
+              <div class="checkmark">
+                <svg
+                  viewBox="0 0 24 24"
+                  class="outline"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+                </svg>
+                <svg
+                  viewBox="0 0 24 24"
+                  class="filled"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+                </svg>
+                <svg
+                  class="celebrate"
+                  width="100"
+                  height="100"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="10,10 20,20" class="poly"></polygon>
+                  <polygon points="10,50 20,50" class="poly"></polygon>
+                  <polygon points="20,80 30,70" class="poly"></polygon>
+                  <polygon points="90,10 80,20" class="poly"></polygon>
+                  <polygon points="90,50 80,50" class="poly"></polygon>
+                  <polygon points="80,80 70,70" class="poly"></polygon>
+                </svg>
+              </div>
+            </div>
+            <!-- <i class="bx bx-heart pet__heart"></i> -->
+          </div>
+          <div class="pet__text">
+            <div class="pet__name">MO231 - Pembroke Corgi Cream</div>
+            <div class="pet__info">
+              <div class="pet__gene">
+                gene : <span>Male</span>
+                <i class="bx bx-male-sign pet__male"></i>
+              </div>
+              <span>|</span>
+              <div class="pet__age">Age : <span>2 months</span></div>
+            </div>
+            <div class="pet__pricing">
+              <div class="pet__price">
+                2,150 DH <span class="pet__old-price">3,700 DH</span>
+              </div>
+              <i class="bx bx-cart-add pet__cart"></i>
+            </div>
+          </div>
+        </figure>
+        <!--  -->
+        <figure class="pet">
+          <div class="pet__image-container">
+            <img src="images/pet6.jpg" alt="" class="pet__image" />
+            <!--  -->
+            <div class="con-like">
+              <input title="like" type="checkbox" class="like" />
+              <div class="checkmark">
+                <svg
+                  viewBox="0 0 24 24"
+                  class="outline"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+                </svg>
+                <svg
+                  viewBox="0 0 24 24"
+                  class="filled"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+                </svg>
+                <svg
+                  class="celebrate"
+                  width="100"
+                  height="100"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="10,10 20,20" class="poly"></polygon>
+                  <polygon points="10,50 20,50" class="poly"></polygon>
+                  <polygon points="20,80 30,70" class="poly"></polygon>
+                  <polygon points="90,10 80,20" class="poly"></polygon>
+                  <polygon points="90,50 80,50" class="poly"></polygon>
+                  <polygon points="80,80 70,70" class="poly"></polygon>
+                </svg>
+              </div>
+            </div>
+            <!-- <i class="bx bx-heart pet__heart"></i> -->
+          </div>
+          <div class="pet__text">
+            <div class="pet__name">MO502 - Pembroke Corgi Tricolor</div>
+            <div class="pet__info">
+              <div class="pet__gene">
+                gene : <span>Female</span>
+                <i class="bx bx-female-sign pet__female"></i>
+              </div>
+              <span>|</span>
+              <div class="pet__age">Age : <span>2 months</span></div>
+            </div>
+            <div class="pet__pricing">
+              <div class="pet__price">
+                2,850 DH <span class="pet__old-price">4,000 DH</span>
+              </div>
+              <i class="bx bx-cart-add pet__cart"></i>
+            </div>
+          </div>
+        </figure>
+        <!--  -->
+        <figure class="pet">
+          <div class="pet__image-container">
+            <img src="images/pet7.jpg" alt="" class="pet__image" />
+            <!--  -->
+            <div class="con-like">
+              <input title="like" type="checkbox" class="like" />
+              <div class="checkmark">
+                <svg
+                  viewBox="0 0 24 24"
+                  class="outline"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+                </svg>
+                <svg
+                  viewBox="0 0 24 24"
+                  class="filled"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+                </svg>
+                <svg
+                  class="celebrate"
+                  width="100"
+                  height="100"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="10,10 20,20" class="poly"></polygon>
+                  <polygon points="10,50 20,50" class="poly"></polygon>
+                  <polygon points="20,80 30,70" class="poly"></polygon>
+                  <polygon points="90,10 80,20" class="poly"></polygon>
+                  <polygon points="90,50 80,50" class="poly"></polygon>
+                  <polygon points="80,80 70,70" class="poly"></polygon>
+                </svg>
+              </div>
+            </div>
+            <!-- <i class="bx bx-heart pet__heart"></i> -->
+          </div>
+          <div class="pet__text">
+            <div class="pet__name">MO231 - Pomeranian White</div>
+            <div class="pet__info">
+              <div class="pet__gene">
+                gene : <span>Female</span>
+                <i class="bx bx-female-sign pet__female"></i>
+              </div>
+              <span>|</span>
+              <div class="pet__age">Age : <span>2 months</span></div>
+            </div>
+            <div class="pet__pricing">
+              <div class="pet__price">
+                2,590 DH <span class="pet__old-price">3,800 DH</span>
+              </div>
+              <i class="bx bx-cart-add pet__cart"></i>
+            </div>
+          </div>
+        </figure>
+        <!--  -->
+        <figure class="pet">
+          <div class="pet__image-container">
+            <img src="images/pet8.jpg" alt="" class="pet__image" />
+            <!--  -->
+            <div class="con-like">
+              <input title="like" type="checkbox" class="like" />
+              <div class="checkmark">
+                <svg
+                  viewBox="0 0 24 24"
+                  class="outline"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+                </svg>
+                <svg
+                  viewBox="0 0 24 24"
+                  class="filled"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+                </svg>
+                <svg
+                  class="celebrate"
+                  width="100"
+                  height="100"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="10,10 20,20" class="poly"></polygon>
+                  <polygon points="10,50 20,50" class="poly"></polygon>
+                  <polygon points="20,80 30,70" class="poly"></polygon>
+                  <polygon points="90,10 80,20" class="poly"></polygon>
+                  <polygon points="90,50 80,50" class="poly"></polygon>
+                  <polygon points="80,80 70,70" class="poly"></polygon>
+                </svg>
+              </div>
+            </div>
+            <!-- <i class="bx bx-heart pet__heart"></i> -->
+          </div>
+          <div class="pet__text">
+            <div class="pet__name">MO231 - Pomeranian White</div>
+            <div class="pet__info">
+              <div class="pet__gene">
+                gene : <span>Male</span>
+                <i class="bx bx-male-sign pet__male"></i>
+              </div>
+              <span>|</span>
+              <div class="pet__age">Age : <span>2 months</span></div>
+            </div>
+            <div class="pet__pricing">
+              <div class="pet__price">
+                1,750 DH <span class="pet__old-price">2,600 DH</span>
+              </div>
+              <i class="bx bx-cart-add pet__cart"></i>
+            </div>
+          </div>
+        </figure>
+        <!--  -->
+      </div>
+    </section>
+    <section class="second-hero">
+      <div class="second-hero__container">
+        <img src="images/second-hero.png" alt="" class="second-hero__image" />
+
+        <div class="second-hero__text">
+          <h1 class="second-hero__title heading-1">
+            Adoption
+            <img
+              src="images/dog-feet.svg"
+              alt=""
+              class="second-hero__feet"
+              draggable="false" />
+          </h1>
+          <h2 class="second-hero__title-second heading-2">
+            We need help. so do they!
+          </h2>
+          <p class="second-hero__paragraph paragraph">
+            Adopt a pet and give it a home, it will be love you back
+            unconditionally.
+          </p>
+          <div class="second-hero__buttons">
+            <button class="btn-second second-hero__second-btn">
+              Watch Intro <i class="bx bxs-right-arrow second-hero__watch"></i>
+            </button>
+            <button class="btn second-hero__main-btn">
+              Explore More <i class="bx bx-down-arrow-alt"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section class="products">
+      <div class="products__header">
+        <div class="products__left">
+          <h5 class="products__arrival heading-5">
+            Hard to choose right products for your pets?
+          </h5>
+          <h3 class="products__title heading-3">Our Products</h3>
+        </div>
+        <div class="product__right">
+          <button class="btn-second products__button">
+            View more <i class="bx bx-arrow-back"></i>
+          </button>
+        </div>
+      </div>
+      <div class="products__container">
+        <!--  -->
+        <figure class="product">
+          <di v class="product__image-container">
+            <img src="images/product1.png" alt="" class="product__image" /><i
+              class="bx bx-heart product__heart"></i>
+          </di>
+          <div class="product__text">
+            <div class="product__name">Reflex Plus Adult Dog Food Salmon</div>
+            <div class="product__info">
+              <div class="product__gene">Product : <span>Dog Food</span></div>
+              <span>|</span>
+              <div class="product__age">Size : <span>400g</span></div>
+            </div>
+            <div class="product__pricing">
+              <div class="product__price">190 DH</div>
+              <i class="bx bx-cart-add product__cart"></i>
+            </div>
+            <div class="product__gift">
+              <i class="bx bx-gift"></i>
+              <p>&bull; Free Toy & Free Shaker</p>
+            </div>
+          </div>
+        </figure>
+        <!--  -->
+        <figure class="product">
+          <di v class="product__image-container">
+            <img src="images/product2.png" alt="" class="product__image" /><i
+              class="bx bx-heart product__heart"></i>
+          </di>
+          <div class="product__text">
+            <div class="product__name">Reflex Plus Adult Cat Food Salmon</div>
+            <div class="product__info">
+              <div class="product__gene">Product : <span>Cat Food</span></div>
+              <span>|</span>
+              <div class="product__age">Size : <span>1.5kg</span></div>
+            </div>
+            <div class="product__pricing">
+              <div class="product__price">450 DH</div>
+              <i class="bx bx-cart-add product__cart"></i>
+            </div>
+            <div class="product__gift">
+              <i class="bx bx-gift"></i>
+              <p>&bull; Free Toy & Free Shaker</p>
+            </div>
+          </div>
+        </figure>
+        <!--  -->
+        <figure class="product">
+          <di class="product__image-container">
+            <img src="images/product3.png" alt="" class="product__image" /><i
+              class="bx bx-heart product__heart"></i>
+          </di>
+          <div class="product__text">
+            <div class="product__name">Cat toy kitten sisal rope ball</div>
+            <div class="product__info">
+              <div class="product__gene">Product : <span>Pet Toy</span></div>
+              <span>|</span>
+              <div class="product__age">Weight : <span>950g</span></div>
+            </div>
+            <div class="product__pricing">
+              <div class="product__price">350 DH</div>
+              <i class="bx bx-cart-add product__cart"></i>
+            </div>
+            <div class="product__gift">
+              <i class="bx bx-gift"></i>
+              <p>&bull; Free Cat Food</p>
+            </div>
+          </div>
+        </figure>
+        <!--  -->
+        <figure class="product">
+          <di v class="product__image-container">
+            <img src="images/product4.png" alt="" class="product__image" /><i
+              class="bx bx-heart product__heart"></i>
+          </di>
+          <div class="product__text">
+            <div class="product__name">Reflex Plus Adult Cat Food Salmon</div>
+            <div class="product__info">
+              <div class="product__gene">Product : <span>Pet Toy</span></div>
+              <span>|</span>
+              <div class="product__age">Weight : <span>2.6kg</span></div>
+            </div>
+            <div class="product__pricing">
+              <div class="product__price">590 DH</div>
+              <i class="bx bx-cart-add product__cart"></i>
+            </div>
+            <div class="product__gift">
+              <i class="bx bx-gift"></i>
+              <p>&bull; Free Cat Food</p>
+            </div>
+          </div>
+        </figure>
+        <!--  -->
+        <figure class="product">
+          <di v class="product__image-container">
+            <img src="images/product5.png" alt="" class="product__image" /><i
+              class="bx bx-heart product__heart"></i>
+          </di>
+          <div class="product__text">
+            <div class="product__name">
+              NaturVet Dogs - Omega-Gold Plus Salmon Oil
+            </div>
+            <div class="product__info">
+              <div class="product__gene">Product : <span>Dog Food</span></div>
+              <span>|</span>
+              <div class="product__age">Size : <span>485g</span></div>
+            </div>
+            <div class="product__pricing">
+              <div class="product__price">340 DH</div>
+              <i class="bx bx-cart-add product__cart"></i>
+            </div>
+            <div class="product__gift">
+              <i class="bx bx-gift"></i>
+              <p>&bull; Free Toy & Free Shaker</p>
+            </div>
+          </div>
+        </figure>
+        <!--  -->
+        <figure class="product">
+          <di v class="product__image-container">
+            <img src="images/product6.png" alt="" class="product__image" /><i
+              class="bx bx-heart product__heart"></i>
+          </di>
+          <div class="product__text">
+            <div class="product__name">
+              Costumes Fashion Pet Clother Cowboy Rider
+            </div>
+            <div class="product__info">
+              <div class="product__gene">
+                Product : <span>Pet Custome</span>
+              </div>
+              <span>|</span>
+              <div class="product__age">Weight : <span>1.5kg</span></div>
+            </div>
+            <div class="product__pricing">
+              <div class="product__price">390 DH</div>
+              <i class="bx bx-cart-add product__cart"></i>
+            </div>
+            <div class="product__gift">
+              <i class="bx bx-gift"></i>
+              <p>&bull; Free Toy & Free Shaker</p>
+            </div>
+          </div>
+        </figure>
+        <!--  -->
+        <figure class="product">
+          <di class="product__image-container">
+            <img src="images/product7.png" alt="" class="product__image" /><i
+              class="bx bx-heart product__heart"></i>
+          </di>
+          <div class="product__text">
+            <div class="product__name">
+              Costumes Chicken Drumsti ck Headband
+            </div>
+            <div class="product__info">
+              <div class="product__gene">
+                Product : <span>Pet Custume</span>
+              </div>
+              <span>|</span>
+              <div class="product__age">Weight : <span>450g</span></div>
+            </div>
+            <div class="product__pricing">
+              <div class="product__price">290 DH</div>
+              <i class="bx bx-cart-add product__cart"></i>
+            </div>
+            <div class="product__gift">
+              <i class="bx bx-gift"></i>
+              <p>&bull; Free Toy & Free Shaker</p>
+            </div>
+          </div>
+        </figure>
+        <!--  -->
+        <figure class="product">
+          <di v class="product__image-container">
+            <img src="images/product8.png" alt="" class="product__image" /><i
+              class="bx bx-heart product__heart"></i>
+          </di>
+          <div class="product__text">
+            <div class="product__name">Reflex Plus Adult Cat Food Salmon</div>
+            <div class="product__info">
+              <div class="product__gene">Product : <span>Pet Toy</span></div>
+              <span>|</span>
+              <div class="product__age">Weight : <span>400g</span></div>
+            </div>
+            <div class="product__pricing">
+              <div class="product__price">290 DH</div>
+              <i class="bx bx-cart-add product__cart"></i>
+            </div>
+            <div class="product__gift">
+              <i class="bx bx-gift"></i>
+              <p>&bull; Free Cat Food</p>
+            </div>
+          </div>
+        </figure>
+      </div>
+    </section>
+    <section class="sellers">
+      <div class="sellers__header">
+        <div class="sellers__left">
+          <h4 class="sellers__arrival heading-4">Proud of our</h4>
+          <h3 class="sellers__title heading-3">Pet Sellers <span>!</span></h3>
+        </div>
+        <div class="sellers__right">
+          <button class="btn-second products__button">
+            View more <i class="bx bx-arrow-back"></i>
+          </button>
+        </div>
+      </div>
+      <div class="sellers__container">
+        <div class="sellers__image-container">
+          <img src="images/company1.png" alt="" class="sellers__image" />
+        </div>
+        <div class="sellers__image-container">
+          <img src="images/company2.png" alt="" class="sellers__image" />
+        </div>
+        <div class="sellers__image-container">
+          <img src="images/company3.png" alt="" class="sellers__image" />
+        </div>
+        <div class="sellers__image-container">
+          <img src="images/company4.png" alt="" class="sellers__image" />
+        </div>
+        <div class="sellers__image-container">
+          <img src="images/company5.png" alt="" class="sellers__image" />
+        </div>
+        <div class="sellers__image-container">
+          <img src="images/company6.png" alt="" class="sellers__image" />
+        </div>
+        <div class="sellers__image-container">
+          <img src="images/company7.png" alt="" class="sellers__image" />
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__container">
+        <figure class="subscribe">
+          <h3 class="subscribe__title heading-3">
+            Register now so you don't miss our programs
+          </h3>
+          <form class="subscribe__form">
+            <input
+              type="email"
+              name="email"
+              class="subscribe__email"
+              placeholder="Enter Your Email"
+              required />
+            <button type="submit" class="btn subscribe__button">
+              Subscribe
+            </button>
+          </form>
+        </figure>
+        <div class="footer__sections">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Home</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Category</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">About</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Contact</a>
+            </li>
+          </ul>
+          <ul class="footer__socials">
+            <li class="footer__social">
+              <i class="bx bxl-facebook-circle"></i>
+            </li>
+            <li class="footer__social">
+              <i class="bx bxl-twitter"></i>
+            </li>
+            <li class="footer__social">
+              <i class="bx bxl-youtube"></i>
+            </li>
+            <li class="footer__social">
+              <i class="bx bxl-instagram"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">
+            &copy; 2023 Youness. All right reserved
+          </p>
+          <img src="images/logo.svg" alt="" class="footer__logo" />
+          <div class="footer__policy">
+            <a>Terms of Service</a>
+            <a>Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+.sellers {
+  padding: 5rem 0;
+  margin: 0 auto;
+  background-color: #fff;
+
+  &__header {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    @media (max-width: 500px) {
+      padding: 2rem;
+    }
+  }
+  &__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    @media (max-width: 500px) {
+      display: block;
+    }
+  }
+  &__arrival {
+    letter-spacing: 2px;
+    color: #12b886;
+  }
+  &__container {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+  }
+  &__image-container {
+    max-width: 15rem;
+    display: flex;
+  }
+  &__image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
